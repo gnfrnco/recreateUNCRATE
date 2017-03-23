@@ -24,7 +24,7 @@ body{
    margin: auto;
 }
 #global-container{
-   margin: 0 30% 0 30%;
+   margin: 0 25% 0 25%;
 }
 
 
@@ -71,7 +71,7 @@ li {
 }
 
 .post{
-   flex: 1 1 480px;
+   flex: 1 1 300px;
    border: 1px solid #ccc;
    margin: 10px;
 }
@@ -138,7 +138,14 @@ li {
   and (-webkit-min-device-pixel-ratio: 1) { 
 #global-container{
    margin: 0 12% 0 12%;
-   /*border: 1px solid red;*/
+}
+.post{
+   flex: 1 1 480px;
+}
 }
 
+@media screen and (max-width:641px) {
+#global-container{
+   margin: 0 3% 0 3%;
+}
 }
