@@ -80,10 +80,6 @@ li {
    flex-basis: 960px;
 }
 
-.post:first-of-type .image img{
-   width: 100%;
-}
-
 .image img{
    width: 100%;
    height: 100%;
@@ -142,10 +138,15 @@ li {
 .post{
    flex: 1 1 480px;
 }
+
 }
 
 @media screen and (max-width:641px) {
 #global-container{
    margin: 0 3% 0 3%;
+}
+.post:first-of-type .description{
+   width: 100%;
+   text-align: center;
 }
 }
